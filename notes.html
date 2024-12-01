@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Scrolling Text -->
+  <div class="marquee">
+    <p>Welcome to the StudyMate BCA Portal ❤- Learn, Grow, and Succeed!</p>
+  </div>
+
+  <header>
+     
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <ul class="navbar">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="syllabus.html">Syllabus</a></li>
+      <li><a href="notes.html">Notes</a></li>
+      <li><a href="Faculty.html">Faculty</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+ 
+  <section class="notes">
+    <h1>Notes</h1>
+
+    <!-- Academic Notes Section -->
+    <h2>Academic Notes for 1st year</h2>
+    <div class="note-item">
+      <p>Semester 1: Computer Networks</p>
+      <button onclick="viewFile('Computer network.pdf')">View</button>
+      <button onclick="downloadFile('Computer network.pdf')">Download</button>
+    </div>
+    <div class="note-item">
+      <p>Semester 1: C Programming</p>
+      <button onclick="viewFile('C programming.pdf')">View</button>
+      <button onclick="downloadFile('C programming.pdf')">Download</button>
+    </div>
+    <div class="note-item">
+      <p>Semester 1: computer organisation and architecture</p>
+      <button onclick="viewFile('computer organisation and architecture (3).pdf')">View</button>
+      <button onclick="downloadFile('computer organisation and architecture (3).pdf')">Download</button>
+    </div>
+    <div class="note-item">
+      <p>Semester 1:Database management system</p>
+      <button onclick="viewFile('Database management system (complete) (1).pdf')">View</button>
+      <button onclick="downloadFile('Database management system (complete) (1).pdf')">Download</button>
+    </div>
+    <div class="note-item">
+      <p>Semester 1:call bio, molecular bio, genetics</p>
+      <button onclick="viewFile('call bio, molecular bio, genetics.pdf')">View</button>
+      <button onclick="downloadFile('call bio, molecular bio, genetics.pdf')">Download</button>
+    </div>
+
+    <h2>Academic Notes for 2nd year</h2>
+    <div class="note-item">
+      <p>Semester 3: Computer Oriented Numerical Analysis</p>
+      <button onclick="viewFile('CONA Unit 1 (1).pdf')">View</button>
+      <button onclick="downloadFile('CONA Unit 1 (1).pdf')">Download</button>
+    </div>
+    <div class="note-item">
+      <p>Semester 3: Data Structures Using 'C'</p>
+      <button onclick="viewFile('DS.pdf')">View</button>
+      <button onclick="downloadFile('DS.pdf')">Download</button>
+    </div>
+    <div class="note-item">
+      <p>Semester 3: Object Oriented Design And Programming in c++</p>
+      <button onclick="viewFile('c++.pdf')">View</button>
+      <button onclick="downloadFile('c++.pdf')">Download</button>
+    </div>
+
+    <!-- Skills Notes Section -->
+    <h2>Skills Notes</h2>
+    <div class="note-item">
+      <p>C Language</p>
+      <button onclick="viewFile('C_Complete_Notes.pdf')">View</button>
+      <button onclick="downloadFile('C_Complete_Notes.pdf')">Download</button>
+    </div>
+    <div class="note-item">
+      <p>Web Development Basics</p>
+      <button onclick="viewFile('notes/webdev-view.pdf')">View</button>
+      <button onclick="downloadFile('notes/webdev.pdf')">Download</button>
+    </div>
+  </section>
+    <!-- footer section-->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2024 StudyMate BCA. All Rights Reserved.</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="syllabus.html">Syllabus</a></li>
+          <li><a href="notes.html">Notes</a></li>
+          <li><a href="Faculty.html">Faculty</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+      </div>
+    </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
